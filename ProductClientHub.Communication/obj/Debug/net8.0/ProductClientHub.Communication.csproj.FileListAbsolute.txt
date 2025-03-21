@@ -9,3 +9,4 @@
 /Users/andre/Documents/projetos/back/ProductClientHub/ProductClientHub.Communication/obj/Debug/net8.0/refint/ProductClientHub.Communication.dll
 /Users/andre/Documents/projetos/back/ProductClientHub/ProductClientHub.Communication/obj/Debug/net8.0/ProductClientHub.Communication.pdb
 /Users/andre/Documents/projetos/back/ProductClientHub/ProductClientHub.Communication/obj/Debug/net8.0/ref/ProductClientHub.Communication.dll
+/Users/andre/Documents/projetos/back/ProductClientHub/ProductClientHub.Communication/obj/Debug/net8.0/ProductClientHub.Communication.sourcelink.json

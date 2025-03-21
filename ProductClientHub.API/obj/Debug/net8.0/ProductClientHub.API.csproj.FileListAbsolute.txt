@@ -35,3 +35,4 @@
 /Users/andre/Documents/projetos/back/ProductClientHub/ProductClientHub.API/obj/Debug/net8.0/ProductClientHub.API.pdb
 /Users/andre/Documents/projetos/back/ProductClientHub/ProductClientHub.API/obj/Debug/net8.0/ProductClientHub.API.genruntimeconfig.cache
 /Users/andre/Documents/projetos/back/ProductClientHub/ProductClientHub.API/obj/Debug/net8.0/ref/ProductClientHub.API.dll
+/Users/andre/Documents/projetos/back/ProductClientHub/ProductClientHub.API/obj/Debug/net8.0/ProductClientHub.API.sourcelink.json
