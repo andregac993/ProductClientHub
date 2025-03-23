@@ -5,8 +5,8 @@
 /Users/andre/Documents/projetos/back/ProductClientHub/ProductClientHub.Communication/obj/Debug/net8.0/ProductClientHub.Communication.AssemblyInfoInputs.cache
 /Users/andre/Documents/projetos/back/ProductClientHub/ProductClientHub.Communication/obj/Debug/net8.0/ProductClientHub.Communication.AssemblyInfo.cs
 /Users/andre/Documents/projetos/back/ProductClientHub/ProductClientHub.Communication/obj/Debug/net8.0/ProductClientHub.Communication.csproj.CoreCompileInputs.cache
+/Users/andre/Documents/projetos/back/ProductClientHub/ProductClientHub.Communication/obj/Debug/net8.0/ProductClientHub.Communication.sourcelink.json
 /Users/andre/Documents/projetos/back/ProductClientHub/ProductClientHub.Communication/obj/Debug/net8.0/ProductClientHub.Communication.dll
 /Users/andre/Documents/projetos/back/ProductClientHub/ProductClientHub.Communication/obj/Debug/net8.0/refint/ProductClientHub.Communication.dll
 /Users/andre/Documents/projetos/back/ProductClientHub/ProductClientHub.Communication/obj/Debug/net8.0/ProductClientHub.Communication.pdb
 /Users/andre/Documents/projetos/back/ProductClientHub/ProductClientHub.Communication/obj/Debug/net8.0/ref/ProductClientHub.Communication.dll
-/Users/andre/Documents/projetos/back/ProductClientHub/ProductClientHub.Communication/obj/Debug/net8.0/ProductClientHub.Communication.sourcelink.json

@@ -5,8 +5,8 @@
 /Users/andre/Documents/projetos/back/ProductClientHub/ProductionClientHub.Exceptions/obj/Debug/net8.0/ProductionClientHub.Exceptions.AssemblyInfoInputs.cache
 /Users/andre/Documents/projetos/back/ProductClientHub/ProductionClientHub.Exceptions/obj/Debug/net8.0/ProductionClientHub.Exceptions.AssemblyInfo.cs
 /Users/andre/Documents/projetos/back/ProductClientHub/ProductionClientHub.Exceptions/obj/Debug/net8.0/ProductionClientHub.Exceptions.csproj.CoreCompileInputs.cache
+/Users/andre/Documents/projetos/back/ProductClientHub/ProductionClientHub.Exceptions/obj/Debug/net8.0/ProductionClientHub.Exceptions.sourcelink.json
 /Users/andre/Documents/projetos/back/ProductClientHub/ProductionClientHub.Exceptions/obj/Debug/net8.0/ProductionClientHub.Exceptions.dll
 /Users/andre/Documents/projetos/back/ProductClientHub/ProductionClientHub.Exceptions/obj/Debug/net8.0/refint/ProductionClientHub.Exceptions.dll
 /Users/andre/Documents/projetos/back/ProductClientHub/ProductionClientHub.Exceptions/obj/Debug/net8.0/ProductionClientHub.Exceptions.pdb
 /Users/andre/Documents/projetos/back/ProductClientHub/ProductionClientHub.Exceptions/obj/Debug/net8.0/ref/ProductionClientHub.Exceptions.dll
-/Users/andre/Documents/projetos/back/ProductClientHub/ProductionClientHub.Exceptions/obj/Debug/net8.0/ProductionClientHub.Exceptions.sourcelink.json
