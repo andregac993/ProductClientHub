@@ -1,18 +1,20 @@
 using Microsoft.AspNetCore.Mvc;
+using ProductClientHub.API.UseCases.Clients.Delete;
+using ProductClientHub.API.UseCases.Clients.GetAll;
 using ProductClientHub.API.UseCases.Clients.Register;
+using ProductClientHub.API.UseCases.Clients.UpdateClientUseCase;
 using ProductClientHub.Communication.Requests;
 using ProductClientHub.Communication.Responses;
-using ProductionClientHub.Exceptions.ExceptionsBase;
 
 namespace ProductClientHub.API.Controllers;
 
-[Route("api/[controller]")]
+[Route("api/clients")]
 [ApiController]
 
 public  class ClientsController : Controller
 {
     [HttpPost]
-    [ProducesResponseType(typeof(ResponseClientJson), StatusCodes.Status201Created)]
+    [ProducesResponseType(typeof(ResponseShortClientJson), StatusCodes.Status201Created)]
     [ProducesResponseType(typeof(ResponseErrorMessagesJson), StatusCodes.Status400BadRequest)]
     public IActionResult Register([FromBody] RequestClientJson request)
     {
@@ -24,29 +26,49 @@ public  class ClientsController : Controller
         }
 
     [HttpPut]
-    public IActionResult Update()
+    [Route("{clientId}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(typeof(ResponseErrorMessagesJson), StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(typeof(ResponseErrorMessagesJson), StatusCodes.Status404NotFound)]
+    public IActionResult Update([FromRoute] Guid clientId, [FromBody] RequestClientJson request)
     {
-        return Ok();
+
+        var useCase = new UpdateClientUseCase();
+        
+        useCase.Execute(clientId, request);
+        
+        return NoContent();
     }
 
     [HttpGet]
+    [ProducesResponseType(typeof(ResponseAllClientsJson), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
     public IActionResult GetAll()
     {
-        return Ok();
+        var useCase = new GetAllClientUseCase();
+        
+        var response = useCase.Execute();
+        if (response.Clients.Count == 0)
+            return NoContent();
+
+        return Ok(response);
     }
     
     [HttpGet]
-    [Route("{userId}")]
-    public IActionResult GetByUserId([FromRoute]Guid userId)
+    [Route("{clientId}")]
+    public IActionResult GetByUserId([FromRoute]Guid clientId)
     {
         return Ok();
     }
     
     [HttpDelete]
-    public IActionResult Delete()
+    [Route("{clientId}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    public IActionResult Delete([FromRoute]Guid clientId)
     {
-        return Ok();
+        var useCase = new DeleteClientUseCase();
+        
+       useCase.Execute(clientId);
+       return NoContent();
     }
-    
-
 }

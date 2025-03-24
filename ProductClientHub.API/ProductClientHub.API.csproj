@@ -19,4 +19,9 @@
       <ProjectReference Include="..\ProductionClientHub.Exceptions\ProductionClientHub.Exceptions.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="UseCases\Products\Register\" />
+      <Folder Include="UseCases\Products\SheradValidator\" />
+    </ItemGroup>
+
 </Project>
